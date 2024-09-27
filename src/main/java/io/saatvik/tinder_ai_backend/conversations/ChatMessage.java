@@ -15,7 +15,7 @@ import org.springframework.cglib.core.Local;
  */
 public record ChatMessage(
     String messageText,
-    String profileId,
+    String authorId,
     LocalDateTime messageTime
 ) {
     
